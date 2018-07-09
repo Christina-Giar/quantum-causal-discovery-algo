@@ -4,9 +4,28 @@
 %           Other functions: cprintf
 % Author: Christina Giarmatzi
 % See Manual for instructions.
+% 
+% Copyright (C) 2017  Christina Giarmatzi
+% 
+%     This program is free software: you can redistribute it and/or modify
+%     it under the terms of the GNU General Public License as published by
+%     the Free Software Foundation, either version 3 of the License, or
+%     (at your option) any later version.
+% 
+%     This program is distributed in the hope that it will be useful,
+%     but WITHOUT ANY WARRANTY; without even the implied warranty of
+%     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%     GNU General Public License for more details.
+% 
+%     You should have received a copy of the GNU General Public License
+%     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+% 
 
 
 clear all
+fprintf('\n')
+cprintf('blue', 'quantum-causal-discovery  Copyright (C) 2017  Christina-Giar')
+fprintf('\n')
 
 % Input of the user.
 tag = '40'; % the name tag of dmat[tag], W[tag] and subdim[tag].
